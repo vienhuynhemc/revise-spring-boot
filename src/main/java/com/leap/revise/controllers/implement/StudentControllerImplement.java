@@ -30,8 +30,8 @@ public class StudentControllerImplement implements StudentController {
     }
 
     @Override
-    public Student delete(Long id) {
-        return this.studentService.delete(id);
+    public void delete(Long id) {
+        this.studentService.delete(id);
     }
 
 }

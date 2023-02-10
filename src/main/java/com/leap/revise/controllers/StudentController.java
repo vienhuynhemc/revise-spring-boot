@@ -18,6 +18,6 @@ public interface StudentController {
     Student update(@RequestBody Student student);
 
     @DeleteMapping(path = "/{id}")
-    Student delete(@RequestParam Long id);
+    void delete(@PathVariable Long id);
 
 }

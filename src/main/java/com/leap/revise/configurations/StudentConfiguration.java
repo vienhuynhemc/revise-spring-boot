@@ -19,11 +19,11 @@ public class StudentConfiguration {
                 List.of(new Student(
                                 "Vien",
                                 "vienhuynhemc@gmail.com",
-                                LocalDate.of(2022, Month.MAY, 4)),
+                                LocalDate.of(1995, Month.MAY, 4)),
                         new Student(
                                 "Vien",
                                 "vienhuynhemc@gmail.com",
-                                LocalDate.of(2022, Month.MAY, 4)
+                                LocalDate.of(2000, Month.MAY, 4)
                         )
                 ));
     }
